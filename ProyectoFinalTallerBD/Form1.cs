@@ -16,5 +16,25 @@ namespace ProyectoFinalTallerBD
         {
             InitializeComponent();
         }
+
+        private void btnIngresarLogin_Click(object sender, EventArgs e)
+        {
+            //prueba para mostrar otros formularios
+            pantallaAdministrador pantAdmin = new pantallaAdministrador();
+            if (txtUsuario.Texts=="Admin" & txtPassword.Texts=="123")
+            {
+                pantAdmin.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Contraseña o usuario incorrecto");
+            }
+        }
+
+        private void lblCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

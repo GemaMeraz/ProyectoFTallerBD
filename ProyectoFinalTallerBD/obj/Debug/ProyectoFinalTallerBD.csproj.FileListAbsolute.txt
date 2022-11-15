@@ -1,0 +1,14 @@
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\bin\Debug\ProyectoFinalTallerBD.exe.config
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\bin\Debug\ProyectoFinalTallerBD.exe
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\bin\Debug\ProyectoFinalTallerBD.pdb
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\bin\Debug\crearHerramientasPers.dll
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\obj\Debug\ProyectoFinalTallerBD.csproj.AssemblyReference.cache
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\obj\Debug\ProyectoFinalTallerBD.Form1.resources
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\obj\Debug\ProyectoFinalTallerBD.Properties.Resources.resources
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\obj\Debug\ProyectoFinalTallerBD.csproj.GenerateResource.cache
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\obj\Debug\ProyectoFinalTallerBD.csproj.CoreCompileInputs.cache
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\obj\Debug\ProyectoFinalTallerBD.exe
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\obj\Debug\ProyectoFinalTallerBD.pdb
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\obj\Debug\ProyectoFinalTallerBD.pantallaAdministrador.resources
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\obj\Debug\ProyectoFinalTallerBD.FormClientes.resources
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\obj\Debug\ProyectoFinalTallerBD.FormEmpleados.resources

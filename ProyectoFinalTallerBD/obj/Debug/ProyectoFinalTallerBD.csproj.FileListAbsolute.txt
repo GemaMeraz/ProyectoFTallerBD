@@ -12,3 +12,5 @@ C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\obj\Debug\Pr
 C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\obj\Debug\ProyectoFinalTallerBD.pantallaAdministrador.resources
 C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\obj\Debug\ProyectoFinalTallerBD.FormClientes.resources
 C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\obj\Debug\ProyectoFinalTallerBD.FormEmpleados.resources
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\obj\Debug\ProyectoFinalTallerBD.pantallaEmpleado.resources
+C:\Users\gema_\source\repos\ProyectoFTallerBD\ProyectoFinalTallerBD\bin\Debug\FontAwesome.Sharp.dll

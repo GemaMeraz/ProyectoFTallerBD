@@ -35,6 +35,7 @@ namespace ProyectoFinalTallerBD
             this.label2 = new System.Windows.Forms.Label();
             this.lblCerrar = new System.Windows.Forms.Label();
             this.pnlLogin = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnIngresarLogin = new System.Windows.Forms.Button();
@@ -43,7 +44,6 @@ namespace ProyectoFinalTallerBD
             this.lblUsuario = new System.Windows.Forms.Label();
             this.txtUsuario = new crearHerramientasPers.herramientasPerso.textboxMod();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.pnlBarraInicio.SuspendLayout();
             this.pnlLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -116,6 +116,18 @@ namespace ProyectoFinalTallerBD
             this.pnlLogin.Name = "pnlLogin";
             this.pnlLogin.Size = new System.Drawing.Size(334, 351);
             this.pnlLogin.TabIndex = 3;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label4.Font = new System.Drawing.Font("Poor Richard", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(96, 138);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(157, 22);
+            this.label4.TabIndex = 8;
+            this.label4.Text = " INICIO DE SESIÓN";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox3
             // 
@@ -224,18 +236,6 @@ namespace ProyectoFinalTallerBD
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label4.Font = new System.Drawing.Font("Poor Richard", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(96, 138);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(157, 22);
-            this.label4.TabIndex = 8;
-            this.label4.Text = " INICIO DE SESIÓN";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 

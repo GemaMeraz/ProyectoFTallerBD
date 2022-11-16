@@ -21,6 +21,7 @@ namespace ProyectoFinalTallerBD
         {
             //prueba para mostrar otros formularios
             pantallaAdministrador pantAdmin = new pantallaAdministrador();
+            pantallaEmpleado pantEmpl = new pantallaEmpleado();
             if (txtUsuario.Texts=="Admin" & txtPassword.Texts=="123")
             {
                 pantAdmin.Show();
@@ -28,8 +29,18 @@ namespace ProyectoFinalTallerBD
             }
             else
             {
-                MessageBox.Show("Contraseña o usuario incorrecto");
+                if (txtUsuario.Texts == "user" & txtPassword.Texts == "123")
+                {
+                    pantEmpl.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Contraseña o usuario incorrecto");
+                }
             }
+
+             
         }
 
         private void lblCerrar_Click(object sender, EventArgs e)

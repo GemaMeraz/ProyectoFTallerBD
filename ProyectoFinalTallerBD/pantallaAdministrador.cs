@@ -18,6 +18,8 @@ namespace ProyectoFinalTallerBD
         //panel para crear un borde izquierdo
         private Panel leftBorderBtn;
 
+        Form1 principal = new Form1();
+
         public pantallaAdministrador()
         {
             InitializeComponent();
@@ -101,18 +103,29 @@ namespace ProyectoFinalTallerBD
 
         private void btnProductos_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, Color.FromArgb(255, 249, 176));
+            ActivateButton(sender, Color.Chocolate);
             currentBtn.BackColor = Color.FromArgb(255, 211, 132);
         }
 
         private void btnVentas_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, Color.Red);
+            ActivateButton(sender, Color.Chocolate);
+            currentBtn.BackColor = Color.SandyBrown;
         }
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, Color.Bisque);
+        }
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Desea cerrar sesión?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Close();
+                principal.Show();
+
+            }
         }
     }
 }

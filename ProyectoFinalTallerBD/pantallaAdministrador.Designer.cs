@@ -38,17 +38,17 @@ namespace ProyectoFinalTallerBD
             this.btnProveedores = new FontAwesome.Sharp.IconButton();
             this.btnEmpleados = new FontAwesome.Sharp.IconButton();
             this.pnlLogo = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lblCerrar = new System.Windows.Forms.Label();
             this.pnlVistaDatos = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnlMenu.SuspendLayout();
             this.pnlLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             this.pnlVistaDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlMenu
@@ -87,6 +87,7 @@ namespace ProyectoFinalTallerBD
             this.btnCerrarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCerrarSesion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCerrarSesion.UseVisualStyleBackColor = true;
+            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
             // 
             // btnClientes
             // 
@@ -207,6 +208,16 @@ namespace ProyectoFinalTallerBD
             this.pnlLogo.Size = new System.Drawing.Size(211, 111);
             this.pnlLogo.TabIndex = 1;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(55, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(91, 85);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -249,16 +260,6 @@ namespace ProyectoFinalTallerBD
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(55, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(91, 85);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // pantallaAdministrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -275,11 +276,11 @@ namespace ProyectoFinalTallerBD
             this.Text = "pantallaAdministrador";
             this.pnlMenu.ResumeLayout(false);
             this.pnlLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.pnlVistaDatos.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }

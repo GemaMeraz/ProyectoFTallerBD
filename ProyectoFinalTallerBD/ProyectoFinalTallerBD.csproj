@@ -59,6 +59,7 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="conexion.cs" />
     <Compile Include="FormClientes.cs">
       <SubType>Form</SubType>
     </Compile>

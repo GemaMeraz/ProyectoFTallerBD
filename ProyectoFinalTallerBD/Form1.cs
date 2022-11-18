@@ -16,6 +16,7 @@ namespace ProyectoFinalTallerBD
         {
             InitializeComponent();
         }
+        conexion miConexion = new conexion();
 
         private void btnIngresarLogin_Click(object sender, EventArgs e)
         {

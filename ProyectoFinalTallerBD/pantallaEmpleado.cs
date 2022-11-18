@@ -16,5 +16,13 @@ namespace ProyectoFinalTallerBD
         {
             InitializeComponent();
         }
+
+        private void lblCerrar_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Desea salir del sistema?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

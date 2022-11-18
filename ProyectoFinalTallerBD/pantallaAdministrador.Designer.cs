@@ -43,7 +43,6 @@ namespace ProyectoFinalTallerBD
             this.lblCerrar = new System.Windows.Forms.Label();
             this.pnlVistaDatos = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.pnlMenu.SuspendLayout();
             this.pnlLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -245,7 +244,6 @@ namespace ProyectoFinalTallerBD
             // 
             // pnlVistaDatos
             // 
-            this.pnlVistaDatos.Controls.Add(this.label1);
             this.pnlVistaDatos.Controls.Add(this.pictureBox1);
             this.pnlVistaDatos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlVistaDatos.Location = new System.Drawing.Point(211, 38);
@@ -261,15 +259,6 @@ namespace ProyectoFinalTallerBD
             this.pictureBox1.Size = new System.Drawing.Size(331, 279);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(196, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
             // 
             // pantallaAdministrador
             // 
@@ -291,7 +280,6 @@ namespace ProyectoFinalTallerBD
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.pnlVistaDatos.ResumeLayout(false);
-            this.pnlVistaDatos.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -312,6 +300,5 @@ namespace ProyectoFinalTallerBD
         private System.Windows.Forms.Label lblCerrar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label1;
     }
 }

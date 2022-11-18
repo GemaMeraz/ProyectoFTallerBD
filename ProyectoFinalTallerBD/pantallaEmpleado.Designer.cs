@@ -189,6 +189,7 @@ namespace ProyectoFinalTallerBD
             this.lblCerrar.Size = new System.Drawing.Size(42, 18);
             this.lblCerrar.TabIndex = 1;
             this.lblCerrar.Text = "   X   ";
+            this.lblCerrar.Click += new System.EventHandler(this.lblCerrar_Click);
             // 
             // pnlVistaDatos
             // 
